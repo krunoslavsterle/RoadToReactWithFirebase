@@ -20,7 +20,7 @@ const withAuthentication = Component => {
                     this.setState({ authUser });
                 },
                 () => {
-                    this.localStorage.removeItem('authUser');
+                    //this.localStorage.removeItem('authUser');
                     this.setState({ authUser: null });
                 }
             );
